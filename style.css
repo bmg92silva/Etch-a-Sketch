@@ -76,10 +76,10 @@ body {
 
 
 .gridItem {
-  border: 1px solid rgb(61, 42, 128);
+  border: 1px solid rgb(226, 226, 226);
   align-items: center;
   justify-content: center;
-  background-color: gray;
+  background-color: rgb(255, 255, 255);
 }
 
 
@@ -95,4 +95,16 @@ a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 24px;
+}
+
+#sliderValue {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size:x-large;
+  font-weight:bolder;
+}
+
+.gridItem input:hover {
+  background-color: rgb(160, 63, 63);  
+  color: rgb(101, 31, 158);
 }
